@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Binary to Decimal Converter</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Bin2Dec</h1>
+    <h2>Binary to Decimal Converter</h2>
+    <div class="content">
+      <div>
+        <input id="value" placeholder="Enter a binary number">
+        <button class="clear" onclick="clearAllData()">AC</button>
+        <button class="convert" onclick="validateInput()">CONVERT</button>
+        <p id="msg" class="red"></p>
+        <div class="result">
+          <span>RESULT: </span>
+          <span id="result"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
