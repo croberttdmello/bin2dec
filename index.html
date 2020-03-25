@@ -13,15 +13,18 @@
     <h1>Bin2Dec</h1>
     <h2>Binary to Decimal Converter</h2>
     <div class="content">
+      <div class="main">
+        <input class="item" id="value" placeholder="Enter a binary number">
+        <button class="item btnConvert" onclick="validateInput()">convert</button>
+        <button class="item btnClear" onclick="clearAllData()">ac</button>
+      </div>
+      <p class="alert">Example: (1100101010b = 810d)</p>
       <div>
-        <input id="value" placeholder="Enter a binary number">
-        <button class="clear" onclick="clearAllData()">AC</button>
-        <button class="convert" onclick="validateInput()">CONVERT</button>
-        <p id="msg" class="red"></p>
-        <div class="result">
-          <span>RESULT: </span>
-          <span id="result"></span>
-        </div>
+        <p class="alert" id="msg"></p>
+      </div>
+      <div class="result">
+        <span><b>RESULT:</b> </span>
+        <span id="result"></span>
       </div>
     </div>
   </div>
